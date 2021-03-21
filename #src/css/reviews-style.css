@@ -1,0 +1,51 @@
+/* reviews */
+.reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__col {
+  width: 50%;
+}
+
+.reviews__col_bgc {
+  background: #53354a;
+  width: 50%;
+}
+
+.reviews__img img{
+  display: block;
+  width: 100%;
+  max-width: 950px;
+  height: auto;
+}
+
+.reviews__item {
+  width: 100%;
+  max-width: 510px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  margin-left: 65px;
+  padding: 10px 0;
+}
+
+.reviews__title {
+  font-family: "cardo";
+  font-style: italic;
+  font-weight: 300;
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.reviews__aftor {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
